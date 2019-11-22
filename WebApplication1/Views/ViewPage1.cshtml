@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script>
+        function GetData() {
+            $.ajax({
+                url: "",
+                type: "GET",
+                dataType: "Json",
+                contentType: "application/json",
+                data: '{"value","123"}',
+                timeout: 1000,
+                error: function() {
+                    alert("error");
+                },
+                success: function(result) {
+                    Console.log(result);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
