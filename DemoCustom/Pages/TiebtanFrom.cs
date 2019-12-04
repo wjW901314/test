@@ -7,21 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DemoCustom.Pages;
 
-namespace DemoCustom
+namespace DemoCustom.Pages
 {
-    public partial class Form1 : Form
+    public partial class TiebtanFrom : Form
     {
-        public Form1()
+        public TiebtanFrom()
         {
             InitializeComponent();
-        }
-
-        private void ellipseButton1_Click(object sender, EventArgs e)
-        {
-           TiebtanFrom tiebtan = new TiebtanFrom();
-           tiebtan.Show();
         }
     }
 }

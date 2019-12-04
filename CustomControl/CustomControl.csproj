@@ -78,6 +78,12 @@
     <Compile Include="UcShadowTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="UcTibetan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcTibetan.Designer.cs">
+      <DependentUpon>UcTibetan.cs</DependentUpon>
+    </Compile>
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UcImageTextBox.resx">
       <DependentUpon>UcImageTextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UcTibetan.resx">
+      <DependentUpon>UcTibetan.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
